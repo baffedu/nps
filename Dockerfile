@@ -2,7 +2,7 @@ FROM alpine:3.8
 MAINTAINER oldiy <oldiy@163.com>
 
 WORKDIR /
-ENV NPS_VERSION 0.23.1
+ENV NPS_VERSION 0.23.2
 
 RUN set -x && \
 	wget --no-check-certificate https://github.com/cnlh/nps/releases/download/v${NPS_VERSION}/linux_amd64_server.tar.gz && \ 
